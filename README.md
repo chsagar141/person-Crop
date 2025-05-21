@@ -33,11 +33,20 @@ project-folder/
 
 ## 🚀 How to Run
 
-### 1. Prepare Your Images
+## 📥 Clone the Repository
+
+First, clone the repository using:
+
+```bash
+git clone https://github.com/chsagar141/person-Crop.git
+cd person-Crop
+```
+
+### 2. Prepare Your Images
 
 Place your images (JPG, PNG, etc.) inside the `input_images/` folder.
 
-### 2. Run the Setup Script
+### 3. Run the Setup Script
 
 This command will:
 
