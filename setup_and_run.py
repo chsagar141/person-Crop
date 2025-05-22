@@ -11,7 +11,7 @@ def install_packages():
 # Step 2: Download YOLOv8n model if not exists
 def download_model():
     model_url = "https://huggingface.co/Ultralytics/YOLOv8/resolve/main/yolov8n.pt?download=true"
-    model_path = "yolov8n.pt"
+    model_path = "person-Crop/yolov8n.pt"
     if not os.path.exists(model_path):
         print("Downloading yolov8n.pt...")
         urllib.request.urlretrieve(model_url, model_path)
@@ -21,7 +21,7 @@ def download_model():
 
 # Step 3: Run the target script
 def run_script():
-    script_name = "run.py"
+    script_name = "person-Crop/run.py"
     if os.path.exists(script_name):
         subprocess.run([sys.executable, script_name])
     else:
