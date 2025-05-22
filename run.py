@@ -6,8 +6,8 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')  # Or 'yolov8s.pt', 'yolov8m.pt', etc.
 
 # Input and output directories
-input_folder = 'input_images'
-output_folder = 'cropped_waist_images'
+input_folder = 'person-Crop/input_images'
+output_folder = 'person-Crop/cropped_waist_images'
 os.makedirs(output_folder, exist_ok=True)
 
 # Class ID for 'person' in COCO dataset
